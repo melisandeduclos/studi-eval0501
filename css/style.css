@@ -1,0 +1,70 @@
+/*PADDING / MARGIN*/
+/*BREAKPOINTS*/
+/*NAVBAR*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.flux {
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 160px;
+}
+
+body {
+  background-color: #efd4e2;
+}
+
+p {
+  color: #6a2749;
+}
+
+h1 {
+  margin: 5px;
+}
+
+.bg-std {
+  background-color: rgb(180, 67, 124);
+}
+
+.bg-darken {
+  background-color: #6a2749;
+}
+
+.dropdown-item {
+  color: #efd4e2;
+}
+
+.navbar {
+  min-height: 120px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-brand img {
+  width: 300px;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-item {
+    margin-right: auto;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
