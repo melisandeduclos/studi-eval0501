@@ -245,10 +245,11 @@ footer {
   text-align: end;
   align-content: flex-end;
   font-size: 1.2rem;
+  padding: 8px;
 }
 
 .activites__main {
-  padding: 5px;
+  padding: 8px;
   display: flex;
   justify-content: center;
   align-content: center;
