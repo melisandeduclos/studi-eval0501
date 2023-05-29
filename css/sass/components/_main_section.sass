@@ -1,0 +1,51 @@
+.activites__contact
+   display: flex
+   flex-direction: column
+   text-align: end
+   align-content: flex-end
+   font-size: $fs-presentation
+
+.activites__main
+   padding: map-get($list-spacing, "std")
+   display: flex
+   justify-content: center
+   align-content: center
+   flex-direction: column
+
+.activites__title
+   color: $color-base
+   text-align: center
+   font-family: $ff-std
+   margin: map-get($list-spacing, "title")
+
+.activites__description
+   text-align: center
+   font-size : $fs-presentation
+
+.activites__img
+   max-width: 762px
+   max-height: 148px
+   object-fit: cover
+
+.activites__table
+   width: 100%
+   color: $color-base
+   table-layout: auto
+   & th
+      background-color: $color-dark
+      color: $color-light
+   & th, td
+      padding: map-get($list-spacing,"lg")
+   & td:first-child
+      width: 175px
+      padding-right: map-get($list-spacing,"lg")*2
+   & tr
+      +transition(0.3s)
+   & tr:hover, .fc-dark:hover
+      background-color: $color-dark
+      color: $color-light
+
+
+      
+      
+

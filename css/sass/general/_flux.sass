@@ -4,3 +4,12 @@
    margin-left: auto
    margin-right: auto
    margin-top: $navbar-height + map-get($list-spacing, "title")
+
+@media screen and (max-width: map-get($grid-bpoints, "lg"))
+   .flux
+      max-width: map-get($grid-bpoints, "lg")
+
+
+@media screen and (max-width: map-get($grid-bpoints, "sm"))
+   .flux
+      max-width: map-get($grid-bpoints, "sm")

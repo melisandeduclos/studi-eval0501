@@ -1,0 +1,42 @@
+.activites__menu
+   display: flex
+   flex-direction: column
+
+
+.card__link
+   text-decoration: none
+   color: inherit
+   display: flex
+   align-content: baseline
+   height: $avatar
+   font-family: $ff_std
+   margin-bottom: map-get($list-spacing, "lg")
+   
+.card__avatar
+   border-radius: map-get($list-spacing, "std")
+   width: $avatar
+   height: $avatar
+
+.card__title
+   padding-left: map-get($list-spacing, "lg")
+   margin-top: auto
+   margin-bottom: auto
+
+@media screen and (max-width: map-get($grid-bpoints, "xl"))
+   .card__link
+      width: 75%
+   .card__title
+      font-size: 0.8rem
+
+@media screen and (max-width: map-get($grid-bpoints, "lg"))
+   .card__title
+      display: none
+   .card__link
+      width: 100%
+
+@media screen and (max-width: map-get($grid-bpoints, "md"))
+   .card__avatar
+      display: none
+   .card__link
+      display: none
+
