@@ -13,3 +13,7 @@ Développement du menu
 Développement de bloc principal
 **Côté aside pour le menu avec les cards
 **Coté section pour le contenu des activités
+
+Développement du footer
+**Menu en bas de page
+**Lien

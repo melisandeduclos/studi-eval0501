@@ -1,0 +1,54 @@
+footer
+   min-height: $navbar-height
+   padding-bottom: map-get($list-spacing, "title")
+   
+.footer__menu, .footer-link__tips
+   width: 100%
+   padding-left: map-get($list-spacing, "lg")
+   padding-right: map-get($list-spacing, "lg")
+
+   & li
+      padding-top: map-get($list-spacing, "lg")
+      & hr
+         margin-top: map-get($list-spacing, "lg")
+         margin-bottom: map-get($list-spacing, "lg")
+
+.footer__menu
+   & li:first-child
+   padding-top: map-get($list-spacing, "title")
+
+.footer-menu__link
+   text-decoration: none
+   color: $color-light
+
+.footer-menu__link:hover
+   text-decoration: underline
+   color: $color-light
+
+.footer__link, .footer-link__tips
+   display: flex
+   flex-direction: row
+
+.footer__link
+   padding-right: map-get($list-spacing, "title")
+
+.footer-link__tips
+   font-size: $fs-legende
+   & li:first-child
+      margin-right: map-get($list-spacing, "std")
+   & li:last-child
+      margin-left: map-get($list-spacing, "std")
+
+@media screen and (min-width: map-get($grid-bpoints, "md"))
+   .footer__menu
+      display: flex
+      flex-direction: row
+      justify-content: space-evenly
+      align-items: center
+
+      & li:first-child
+         padding-top: map-get($list-spacing, "lg")
+
+      & hr
+         display: none
+      
