@@ -7,18 +7,19 @@
    <title>Loisirs nature pour tous Baie de Somme - Site de atoutanim !</title>
    <!-- LINK TO BOOTSTRAP CDN 5.0.2 -->
    <link rel="stylesheet" href="bootstrap-5.0.2/scss/bootstrap.css">
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+   rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+   crossorigin="anonymous"> -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
    <link rel="stylesheet" href="css/style.css">
-   <!-- FAVICON -->
    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-   <!-- LINK TO GOOGLE FONTS -->
+<!-- LINK TO GOOGLE FONTS -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Open+Sans:wght@300;500;700&display=swap"
    rel="stylesheet">
 </head>
 <body>
-   <!-- HEADER -->
    <header class="flux">
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-std">
          <div class="container">
@@ -33,7 +34,7 @@
                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item dropdown">
                      <a
-                     class="nav-link dropdown-toggle active"
+                     class="nav-link dropdown-toggle"
                         href="home.html"
                         id="navbarDropdownNosactivites"
                         role="button"
@@ -50,6 +51,7 @@
                         <li><a class="dropdown-item" href="#">Marche nordique</a></li>
                         <li><a class="dropdown-item" href="#">Meubles en carton</a></li>
                         <li><a class="dropdown-item" href="#">Vélo</a></li>
+                        <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                      </ul>
                   </li>
                   
@@ -83,7 +85,7 @@
                      <a href="#" class="nav-link">Les sorties</a>
                   </li>
                   <li class="nav-item">
-                     <a href="calendrier.html" class="nav-link">Calendrier</a>
+                     <a href="calendrier.html" class="nav-link active">Calendrier</a>
                   </li>
                   <li class="nav-item">
                      <a href="#" class="nav-link">Se retrouver</a>
@@ -100,77 +102,121 @@
                </ul>
             </div>
          </div>
-      </nav>
+       </nav>
    </header>
-   <!-- FIN HEADER -->
-   <!-- MAIN -->
+
    <main class="flux activites">
-      <h1 class="activites__title">Loisirs nature Abbeville - Baie de Somme - Forêt de Crécy </h1>
       <div class="row">
-   <!-- ASIDE -->
-      <aside class="col-xl-3 col-sm-auto activites__menu h-100">
-         <a class="card__link" href="#">
-            <img class="card__avatar" src="images/mainaside01-01.jpg" alt="Marche nordique" >
-            <p class="card__title">Marche nordique</p>
-         </a>
+         <aside class="col-xl-3 col-sm-auto activites__menu h-100">
+               <a class="card__link" href="#">
+                  <img class="card__avatar" src="images/mainaside01-01.jpg" alt="Marche nordique" >
+                  <p class="card__title">Marche nordique</p>
+               </a>
 
-         <a class="card__link" href="#">
-            <img class="card__avatar" src="images/mainaside01-02.jpg" alt="Jeux traditionnels" >
-            <p class="card__title">Jeux traditionnels</p>
-         </a>
+               <a class="card__link" href="#">
+                  <img class="card__avatar" src="images/mainaside01-02.jpg" alt="Jeux traditionnels" >
+                  <p class="card__title">Jeux traditionnels</p>
+               </a>
 
-         <a class="card__link" href="#">
-            <img class="card__avatar" src="images/mainaside02-01.jpg" alt="Séminaires - jeux de pistes" >
-            <p class="card__title">Séminaires - jeux de pistes</p>
-         </a>
+               <a class="card__link" href="#">
+                  <img class="card__avatar" src="images/mainaside02-01.jpg" alt="Séminaires - jeux de pistes" >
+                  <p class="card__title">Séminaires - jeux de pistes</p>
+               </a>
 
-         <a class="card__link" href="#">
-            <img class="card__avatar" src="images/mainaside02-02.jpg" alt="Séminaires - vélo en Baie de Somme" >
-            <p class="card__title">Séminaires - vélo en Baie de Somme</p>
-         </a>
+               <a class="card__link" href="#">
+                  <img class="card__avatar" src="images/mainaside02-02.jpg" alt="Séminaires - vélo en Baie de Somme" >
+                  <p class="card__title">Séminaires - vélo en Baie de Somme</p>
+               </a>
 
-         <a class="card__link" href="#">
-            <img class="card__avatar" src="images/mainaside03-01.jpg" alt="Jeux d'orientation, rallyes" >
-            <p class="card__title">Jeux d'orientation, rallyes</p>
-         </a>
+               <a class="card__link" href="#">
+                  <img class="card__avatar" src="images/mainaside03-01.jpg" alt="Jeux d'orientation, rallyes" >
+                  <p class="card__title">Jeux d'orientation, rallyes</p>
+               </a>
 
-         <a class="card__link" href="#">
-            <img class="card__avatar" src="images/mainaside03-02.jpg" alt="Phoques de la Baie de Sommme" >
-            <p class="card__title">Phoques de la Baie de Sommme</p>
-         </a>
+               <a class="card__link" href="#">
+                  <img class="card__avatar" src="images/mainaside03-02.jpg" alt="Phoques de la Baie de Sommme" >
+                  <p class="card__title">Phoques de la Baie de Sommme</p>
+               </a>
 
-         <a class="card__link" href="#">
-            <img class="card__avatar" src="images/mainaside04-01.jpg" alt="Chasses au trésor" >
-            <p class="card__title">Chasses au trésor</p>
-         </a>
+               <a class="card__link" href="#">
+                  <img class="card__avatar" src="images/mainaside04-01.jpg" alt="Chasses au trésor" >
+                  <p class="card__title">Chasses au trésor</p>
+               </a>
 
-         <a class="card__link" href="#">
-            <img class="card__avatar" src="images/mainaside04-02.jpg" alt="Atelier Brico'recup" >
-            <p class="card__title">Atelier Brico'recup</p>
-         </a>
-      </aside>
-   <!-- FIN ASIDE -->
-   <!-- SECTION PRINCIPALE -->
-      <section class="col-xl-8 col-lg-6 col-sm-10">
-         <div class="activites__main">
-            <img src="images/nosactivites-01.png" class="activites__img" alt="Pêle-Mèle de nos activités">
-            
-            <h2 class="activites__title">Nos Activités</h2>
-            <p class="activites__description">Plaisirs ensemble et plaisirs au grand air !</p>
-            <p class="activites__description">Pour se divertir, un large choix d'animations et loisirs nature.</p> 
-            <p class="activites__description">Pour tous : individuels, familles, groupes, scolaires, centres de loisirs, séminaires.</p>
-            <p class="activites__description">Simplicité - Convivialité : les maîtres mots de toutes nos activités ! </p>
-         </div>
-         <div class="activites__contact">
-            <a href="mailto:atoutanim@gmail.com">atoutanim@gmail.com</a><br>
-            <a href="tel:+33681151593">06.81.15.15.93</a>
-         </div>
-      </section>
-   <!-- FIN SECTION PRINCIPALE -->
+               <a class="card__link" href="#">
+                  <img class="card__avatar" src="images/mainaside04-02.jpg" alt="Atelier Brico'recup" >
+                  <p class="card__title">Atelier Brico'recup</p>
+               </a>
+         </aside>
+         <section class="col-xl-8 col-lg-6 col-sm-10">
+            <div class="activites__main">
+               <img src="images/calendrier-header.jpeg" class="activites__img" alt="Carte de la Baie de Somme">
+               
+               <h2 class="activites__title">Calendrier</h2>
+               <table class="activites__table">
+                  <!-- https://www.w3schools.com/Css/css_table.asp -->
+                  <thead>
+                      <tr>
+                          <th>Date et Horaire</th>
+                          <th>Activités</th>
+                          <th>Lieu</th>
+                      </tr>
+                  </thead>
+
+                  <tbody>
+                  <tr>
+                      <td> 12/11 à 10h30 <br>
+                           09/11 à 10h00 <br>
+                           05/11 à 13h30 <br>
+                           04/11 à 15h30 <br>
+                           04/11 à 11h30 <br>
+                           03/11 à 15h00 <br>
+                     </td>
+                      <td>Les phoques et la baie de Somme</td>
+                      <td>Le Hourdel</td>
+                  </tr>
+
+                  <tr>
+                      <td>05/07</td>
+                      <td>Découvertes des phoques</td>
+                      <td>Le Hourdel</td>
+                  </tr>
+                  <tr>
+                      <td>25 et 26/07 <br> 22 et 23/08</td>
+                      <td>Rando-découverte "Les 2 rives"</td>
+                      <td>Baie de Somme</td>
+                  </tr>
+                  <tr>
+                      <td>16/09</td>
+                      <td>Jeux picards</td>
+                      <td>Marché Locavore</td>
+                  </tr>
+                  <tr>
+                     <td colspan="3" class="fc-dark fw-bolder">du 07/07 au 31/08</td>
+                  </tr>
+                  <br>
+                  <tr>
+                     <td>mardi, mercredi, samedi: après midi ou <br> jeudi, vendredi, dimanche : matins</td>
+                     <td>Sortie spéciale phoque pour enfants. <br> "Wilson le phoque"</td>
+                     <td > Sur réservation</td>
+                  </tr>
+                  <tr>
+                     <td>mardi, mercredi, samedi: matins</td>
+                     <td> Promenade-découverte Forêt de Crécy-en-Ponthieu
+                     <br> arbres remarquables, arbres sculptés </td>
+                     <td > Sur réservation</td>
+                  </tr>
+                  </tbody>
+                </table>
+            </div>
+            <div class="activites__contact">
+               <a href="mailto:atoutanim@gmail.com">atoutanim@gmail.com</a><br>
+               <a href="tel:+33681151593">06.81.15.15.93</a>
+            </div>
+         </section>
       </div>
+      
    </main>
-   <!-- FIN MAIN -->
-   <!-- FOOTER -->
    <footer class="bg-std">
       <div class="flux">
          <ul class="footer__menu">
@@ -234,7 +280,6 @@
 
       </div>
    </footer>
-   <!-- FIN FOOTER -->
    <!-- LINK TO SCRIPT BOOTSTRAP -->
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

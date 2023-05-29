@@ -17,3 +17,7 @@ Développement de bloc principal
 Développement du footer
 **Menu en bas de page
 **Lien
+
+Ajout de la page Calendrier.html
+--> sur la base de la page home.html
+--> ajout dans les pages home.htmlet calendrier.html les liens vers home et calendrier
